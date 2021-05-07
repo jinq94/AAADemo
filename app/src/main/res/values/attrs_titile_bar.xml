@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 显示金额的View -->
+    <declare-styleable name="MyTitleBar">
+        <attr name="background_root" format="reference|color"/>
+        <attr name="image_right" format="reference|color"/>
+        <attr name="image_left" format="reference|color"/>
+        <attr name="text_right_btn" format="string"/>
+        <attr name="text_title" format="string"/>
+        <attr name="visibility_right_btn" format="boolean"/>
+        <attr name="visibility_right_image" format="boolean"/>
+    </declare-styleable>
+</resources>
