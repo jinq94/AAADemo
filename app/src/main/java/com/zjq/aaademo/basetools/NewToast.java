@@ -7,8 +7,8 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.kunyang.cloudmerchant.R;
-import com.kunyang.cloudmerchant.tools.UnitTool;
+import com.zjq.aaademo.R;
+import com.zjq.aaademo.tools.UnitTool;
 
 
 public class NewToast {
