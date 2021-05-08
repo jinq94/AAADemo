@@ -51,4 +51,9 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:background">@color/LineColor</item>
     </style>
+    <!--登录输入框浮动标签-->
+    <style name="login_hintAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/blue</item>
+    </style>
 </resources>

@@ -63,7 +63,7 @@
         android:layout_marginRight="48dp"
         android:ellipsize="end"
         android:lines="1"
-        android:textColor="@color/TextColor"
+        android:textColor="@color/white"
         android:textSize="16dp" />
 </RelativeLayout>
 

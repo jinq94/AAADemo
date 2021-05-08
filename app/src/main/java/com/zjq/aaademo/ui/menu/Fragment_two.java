@@ -37,7 +37,7 @@ public class Fragment_two extends BaseFragment {
         webView.loadUrl(Url);
         setWebview(webView);
         setFresh();
-        tvtitle.setText("我的");
+        tvtitle.setText("分类");
     }
 
 
