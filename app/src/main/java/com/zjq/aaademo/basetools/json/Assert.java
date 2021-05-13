@@ -1,4 +1,4 @@
-package com.zjq.aaademo.tools.json;
+package com.zjq.aaademo.basetools.json;
 
 //
 // Source code recreated from a .class file by IntelliJ IDEA

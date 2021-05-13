@@ -1,4 +1,4 @@
-package com.zjq.aaademo.tools.json;
+package com.zjq.aaademo.basetools.json;
 
 /**
  * Created  in 2021/4/27.

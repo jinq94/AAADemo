@@ -6,6 +6,6 @@ package com.zjq.aaademo.basetools;
 //显示打印信息
 public class Println__ {
     public Println__(String mess) {
-//        System.out.println("###-"+mess);
+       System.out.println("###-"+mess);
     }
 }

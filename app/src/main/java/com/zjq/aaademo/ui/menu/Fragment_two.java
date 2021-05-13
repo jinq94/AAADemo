@@ -13,27 +13,32 @@ import android.widget.TextView;
 
 import com.zjq.aaademo.R;
 
+import org.xutils.view.annotation.ContentView;
+import org.xutils.view.annotation.ViewInject;
+import org.xutils.x;
+
+@ContentView(R.layout.fragment_web)
 public class Fragment_two extends BaseFragment {
-    private View view;
+    @ViewInject(R.id.web_frag)
     private WebView webView;
+    @ViewInject(R.id.swipfresh)
     private SwipeRefreshLayout layoutFresh;
-    private String Url = "https://www.zhihu.com/";
+    @ViewInject(R.id.titil)
     private TextView tvtitle;
+    private String Url = "https://www.zhihu.com/";
+
 
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        view = inflater.inflate(R.layout.fragment_web, null);
-        return view;
+        return x.view().inject(this, inflater, container);
+
     }
 
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        tvtitle = view.findViewById(R.id.titil);
-        webView = view.findViewById(R.id.web_frag);
-        layoutFresh = view.findViewById(R.id.swipfresh);
         webView.loadUrl(Url);
         setWebview(webView);
         setFresh();

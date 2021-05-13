@@ -55,4 +55,12 @@
             android:maxLength="32"
             android:textSize="16sp" />
     </android.support.design.widget.TextInputLayout>
+    <TextView
+        android:id="@+id/tvmessage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:textColor="@color/Black"
+        android:textSize="12dp"
+        tools:text="文本"/>
 </LinearLayout>

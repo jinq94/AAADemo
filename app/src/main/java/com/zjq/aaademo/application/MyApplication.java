@@ -9,6 +9,8 @@ import android.os.Message;
 
 import com.zjq.aaademo.basetools.MyToast;
 
+import org.xutils.x;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -44,6 +46,8 @@ public class MyApplication extends Application {
         applicationContext = this;
         instance = this;
         context = getApplicationContext();//获取当前activity的context
+        x.Ext.init(this);
+        x.Ext.setDebug(true); //是否输出debug日志，开启debug会影响性能。
     }
 
     //获取context对象
